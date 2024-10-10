@@ -15,7 +15,7 @@ body {
   font-family:'Roboto';
    
 }
-p {
+h4 {
   text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
 }
 .container {
@@ -66,4 +66,4 @@ p {
   80% {margin-top: -5.62rem;}
   90% {margin-top: 0;}
   100% {margin-top: 0;}
-}
+} 
