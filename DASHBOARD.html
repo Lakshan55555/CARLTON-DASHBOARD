@@ -25,7 +25,12 @@ var loader = document.getelementbyid("preloader");
 
         
     </div>
-
+ <script>
+        window.addEventListener('load', function() {
+            const preloader = document.getElementById('preloader');
+            preloader.style.display = 'none'; // Hide the preloader
+        });
+    </script>
 
 
 <bg color="blue">
