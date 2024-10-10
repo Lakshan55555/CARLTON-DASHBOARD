@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="style.css">
 
     <div id="preloader">
-<iframe src="https://giphy.com/embed/WiIuC6fAOoXD2" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/awesome-circle-loading-WiIuC6fAOoXD2">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/WiIuC6fAOoXD2" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/awesome-circle-loading-WiIuC6fAOoXD2">
         
     </div>
    
 </head>
 
-
+<script>  
+var loader = document.getelementbyid("preloader");
+    window.addeventlistener("load", function(){
+   loader.style.display="none";
+    })
+</script>
 
 
 
